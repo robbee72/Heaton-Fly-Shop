@@ -1,0 +1,17 @@
+.header {
+  background: $orange-rust;
+}
+
+.header__content {
+  justify-content: space-between;
+  padding: $s-size 0;
+}
+
+.header__title {
+  text-align: center;
+  color: #3a0c7d;
+  text-decoration: none;
+  h1 {
+    margin: 10px;
+  }
+}
