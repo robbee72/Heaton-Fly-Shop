@@ -7,10 +7,10 @@ html {
 }
 
 body {
- color: $orange-rust;
- font-family: Helvetica, Arial, sans-serif;
- font-size: $m-size;
- line-height: 1.6;
+  color: $orange-rust;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: $m-size;
+  line-height: 1.6;
 }
 
 button {
@@ -23,4 +23,9 @@ button:disabled {
 
 .is-active {
   font-weight: bold;
+}
+
+h1 {
+  color: #f94414;
+  text-shadow: 2px 2px #6cf4e3;
 }

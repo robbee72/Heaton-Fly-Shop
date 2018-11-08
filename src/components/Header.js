@@ -7,17 +7,33 @@ export const Header = () => (
       <div className="header__content">
         <h1 className="header__title">Heaton Fly Shop</h1>
         <div>
-          <NavLink to="/home" activeClassName="is-active">
-            Home
-          </NavLink>
-          <br />
-          <NavLink to="/contact" activeClassName="is-active">
-            Contact
-          </NavLink>
-          <br />
-          <NavLink to="/about" activeClassName="is-active">
-            About
-          </NavLink>
+          <ul>
+            <li>
+              <NavLink to="/landing" activeClassName="is-active">
+                Landing
+              </NavLink>
+            </li>
+            <li>
+              <NavLink to="/shop" activeClassName="is-active">
+                Fly Shop
+              </NavLink>
+            </li>
+            <li>
+              <NavLink to="/hotel" activeClassName="is-active">
+                Hotel
+              </NavLink>
+            </li>
+            <li>
+              <NavLink to="/dining" activeClassName="is-active">
+                Dining
+              </NavLink>
+            </li>
+            <li>
+              <NavLink to="/mousey" activeClassName="is-active">
+                Mouse Trap
+              </NavLink>
+            </li>
+          </ul>
         </div>
       </div>
     </div>

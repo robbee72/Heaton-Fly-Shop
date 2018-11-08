@@ -16,8 +16,17 @@
   justify-content: center;
   width: 100vw;
 }
+.box-layout__hotelroom {
+  align-items: center;
+  background: url("/images/hotel-room.jpg");
+  background-size: cover;
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  width: 100vw;
+}
 
-.box-layout__contact {
+.box-layout__shop {
   color: $black;
   align-items: center;
   background: url("/images/lookthru.jpg");
@@ -33,6 +42,14 @@
   padding: $l-size $m-size;
   text-align: center;
   width: 25rem;
+}
+
+.box-layout__mouseybox {
+  color: yellow;
+  background: fade-out(white, 0.15);
+  padding: $l-size $m-size;
+  text-align: center;
+  width: 60rem;
 }
 
 .box-layout__title {

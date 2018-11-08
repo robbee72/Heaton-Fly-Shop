@@ -1,19 +1,13 @@
-.header {
-  background: -moz-linear-gradient(
-    left,
-    rgba(242, 246, 248, 1) 0%,
-    rgba(216, 225, 231, 1) 50%,
-    rgba(181, 198, 208, 1) 51%,
-    rgba(224, 239, 249, 1) 100%
-  );
+.footer {
+  background: $light-aqua;
 }
 
-.header__content {
+.footer__content {
   justify-content: space-between;
   padding: $s-size 0;
 }
 
-.header__title {
+.footer__title {
   text-align: center;
   color: $purple;
   text-decoration: none;
@@ -24,7 +18,7 @@
 
 ul {
   list-style-type: none;
-  margin: 0;
+  margin: 80;
   padding: 0;
   overflow: hidden;
 }
