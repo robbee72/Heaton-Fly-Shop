@@ -23,18 +23,22 @@ export default class MouseyPage extends React.Component {
   render() {
     const styles = {
       position: "fixed",
-      height: "100%",
-      width: "100%",
+      border: "10px solid #73AD21",
+      height: "50%",
+      width: "75%",
       textAlign: "center",
       color: "black",
+      background: `url("/images/cheese-wedge-icon.png") no-repeat center`,
       backgroundColor: "#344dd1"
     };
     return (
       <Mouse>
         {mouse => (
-          <div style={styles}>
-            Mouse Position: ({mouse.x}, {mouse.y})
-          </div>
+          <ul className="box-layout__mouseybox">
+            <div style={styles}>
+              Mouse Position: ({mouse.x}, {mouse.y})
+            </div>
+          </ul>
         )}
       </Mouse>
     );
