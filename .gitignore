@@ -1,2 +1,8 @@
 node_modules/
 bundles/
+
+#.gitignore
+src/*
+public/*
+static/css/*.map
+static/js/*.map
