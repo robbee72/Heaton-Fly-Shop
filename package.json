@@ -5,6 +5,10 @@
   "main": "index.js",
   "author": "KLR",
   "license": "MIT",
+  "engineStrict": true,
+  "engines": {
+    "node": "11.2.0"
+  },
   "scripts": {
     "build:dev": "webpack",
     "build:prod": "webpack -p --env production",
