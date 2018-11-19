@@ -3,8 +3,8 @@ const HtmlWebpackPlugin = require("html-webpack-plugin");
 
 module.exports = env => {
   const isProduction = env === "production";
-
   return {
+    mode: "none",
     entry: "./src/app.js",
     output: {
       path: path.join(__dirname, "public", "dist"),

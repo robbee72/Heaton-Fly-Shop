@@ -7,8 +7,8 @@ import HotelPage from "../components/HotelPage";
 import DiningPage from "../components/DiningPage";
 import ShopPage from "../components/ShopPage";
 import Footer from "../components/Footer";
-import ContactPage from "../components/ContactPage";
-import AboutPage from "../components/AboutPage";
+import ContactPage from "../components/Info/ContactPage";
+import AboutPage from "../components/Info/AboutPage";
 import MouseyPage from "../components/MouseyPage";
 
 const AppRouter = () => (

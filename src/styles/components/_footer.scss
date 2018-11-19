@@ -2,9 +2,16 @@
   position: fixed;
   left: 0;
   bottom: 0;
+  height: 6 0px;
   width: 100%;
   text-align: center;
   background: $light-aqua;
+  opacity: 0.4;
+  transition: 0.3s;
+}
+
+.footer:hover {
+  opacity: 1;
 }
 
 .footer__content {
