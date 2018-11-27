@@ -26,6 +26,9 @@ button:disabled {
 }
 
 h1 {
-  color: #f94414;
-  text-shadow: 2px 2px #6cf4e3;
+  background-image: url("/images/reys.jpg");
+  background-size: cover;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
 }
