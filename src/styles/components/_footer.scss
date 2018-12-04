@@ -28,6 +28,17 @@
   }
 }
 
+.footer-layout__title {
+  color: $blue;
+  margin: 0 0 $s-size 0;
+  line-height: 1;
+}
+.footer-layout__subtitle {
+  color: $purple;
+  margin: 0 0 $m-size 0;
+  line-height: 1;
+}
+
 ul {
   list-style-type: none;
   margin: 80;

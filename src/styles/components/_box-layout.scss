@@ -10,7 +10,7 @@
   width: 100vw;
 }
 
-.box-layout__about {
+.box-layout__frame {
   align-items: center;
   background: url("/images/breakfast.jpg") no-repeat center;
   background-position: center;
@@ -61,6 +61,7 @@
 }
 
 .box-layout__title {
+  color: $black;
   margin: 0 0 $m-size 0;
   line-height: 1;
 }
