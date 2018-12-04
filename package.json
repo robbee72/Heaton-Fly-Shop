@@ -5,13 +5,9 @@
   "main": "index.js",
   "author": "KLR",
   "license": "MIT",
-  "proxy": "https://heatonflyshop.herokuapp.com/",
   "scripts": {
-    "build:dev": "webpack",
-    "build:prod": "webpack -p --env production",
-    "dev-server": "webpack-dev-server",
-    "start": "node server.js",
-    "heroku-postbuild": "yarn run build:prod"
+    "start": "node ./node_modules/webpack-dev-server/bin/webpack-dev-server.js",
+    "build": "webpack -p --define process.env.NODE_ENV='\"production\"' --progress --colors"
   },
   "dependencies": {
     "babel-cli": "6.26.0",
@@ -30,15 +26,15 @@
     "react-modal": "^3.6.1",
     "react-router-dom": "^4.3.1",
     "sass-loader": "^7.1.0",
-    "style-loader": "^0.23.1",
-    "webpack": "^4.23.1",
-    "webpack-dev-server": "^3.1.9"
+    "style-loader": "^0.23.1"
   },
   "devDependencies": {
     "@babel/core": "^7.1.2",
     "@babel/preset-env": "^7.1.0",
     "@babel/preset-react": "^7.0.0",
     "babel-loader": "^8.0.4",
+    "webpack": "^4.23.1",
+    "webpack-dev-server": "^3.1.9",
     "webpack-cli": "^3.1.2"
   },
   "repository": "git@github.com:robbee72/Heaton-Fly-Shop.git"
