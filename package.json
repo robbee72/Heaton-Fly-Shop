@@ -5,6 +5,7 @@
   "main": "index.js",
   "author": "KLR",
   "license": "MIT",
+  "proxy": "https://heatonflyshop.herokuapp.com/",
   "scripts": {
     "build:dev": "webpack",
     "build:prod": "webpack -p --env production",
